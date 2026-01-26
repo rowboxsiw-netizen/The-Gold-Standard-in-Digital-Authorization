@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 interface SEOProps {
@@ -34,12 +33,11 @@ const SEO: React.FC<SEOProps> = ({ title, description, slug = '', schema }) => {
 
     updateOG('og:title', title);
     updateOG('og:description', description);
-    updateOG('og:url', `https://authorize-example.com/#/${slug}`);
+    updateOG('og:url', `https://authorize.qzz.io/#/${slug}`);
     updateOG('og:type', 'website');
 
     // Schema Markup
     if (schema) {
-      // Fix: cast to HTMLScriptElement so that 'type' property can be accessed
       const existingScript = document.getElementById('schema-markup') as HTMLScriptElement | null;
       if (existingScript) {
         existingScript.textContent = JSON.stringify(schema);

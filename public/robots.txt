@@ -1,5 +1,4 @@
-
 User-agent: *
 Allow: /
 
-Sitemap: https://authorize-example.com/sitemap.xml
+Sitemap: https://authorize.qzz.io/sitemap.xml

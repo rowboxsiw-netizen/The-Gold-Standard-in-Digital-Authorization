@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
@@ -9,8 +8,8 @@ const Home: React.FC = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Authorize",
-    "url": "https://authorize-example.com",
-    "logo": "https://authorize-example.com/logo.png",
+    "url": "https://authorize.qzz.io",
+    "logo": "https://authorize.qzz.io/logo.png",
     "description": "Enterprise-grade digital authorization and identity verification services."
   };
 
