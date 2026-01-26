@@ -1,0 +1,7 @@
+{
+  "name": "Authorize - Digital Authorization & Security Services",
+  "description": "A high-performance, SEO-optimized landing page for Authorize, a leader in digital identity verification and secure authorization services.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
